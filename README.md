@@ -6,12 +6,13 @@ Find and Replace GUI for Simulink.
 ## Description
 ##### Setup / Install
 
-1. Clone the repo and add the root folder to the Matlab path.
+1. Clone the repo or download the repo ZIP file and unpack
+2. Add the repo root folder to the Matlab path.
 
 ##### How to Use
 
-1. Open a simulink model.
-2. At the command prompt, type:
+3. Open a simulink model.
+4. At the command prompt, type the following. This can be tab-completed.
    
     ```matlab
     FindAndReplaceModelGUI
@@ -24,4 +25,5 @@ MATLAB, Simulink
 
 #####  MATLAB version
 R2019a (probably R2015b to R2018b)
+  - Note: quirks with a few properties
 R2015a (probably R2014b)
